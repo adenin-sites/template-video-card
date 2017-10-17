@@ -1,0 +1,72 @@
+contentType: Card
+title: Video Card
+name: template-video-card
+StreamSource: null
+CollectionModeField:
+  CollectionMode: 0
+PriorityField:
+  Priority: 5
+MaxItemsField:
+  MaxItems: 3
+CardComponent: template-video-card/template-video-card-card
+StoreMetadataField:
+  description: This is a video card with a variety of player controls and features!
+  logourl: template-video-card/icons8-movie.png
+  storehide: !!bool false
+  disableWorkplace: !!bool false
+CommonPart:
+  Owner: !!int 222
+  Container: null
+  CreatedUtc: 2017-10-11T14:56:45.0005492Z
+  PublishedUtc: 2017-10-17T12:25:15.7715786Z
+  ModifiedUtc: 2017-10-17T12:25:15.7403240Z
+  VersionCreatedUtc: 2017-10-17T12:25:15.0000000
+  VersionPublishedUtc: 2017-10-17T12:25:15.0000000
+  VersionModifiedUtc: 2017-10-17T12:25:15.0000000
+ServicePart:
+  ConnectorTypeId: !!int 0
+  ConnectorName: Script
+  ServiceName: Script
+  Url: ~/api/adenin.GateKeeper.Script
+  ServiceParameters: '{}'
+SearchContextPart:
+  Query: null
+  Interface: null
+CommandPart:
+  CommandType: None
+  Command: 
+  DefaultDate: null
+  Intent: null
+  Ext: {}
+AppPart:
+  App: null
+  Url: 
+  ExtUrl: 
+  Priority: !!int 0
+  AppFaceId: !!int 0
+  Category: orange
+  Icon: now:search
+  CSSClasses: null
+  Enabled: !!bool false
+  NewWindow: !!bool false
+  UrlWithId: !!bool true
+  AvailableAppFaceRecords: null
+  HasPattern: !!bool false
+RoleViewPermissionsPart:
+  AllowedRoles:
+    - Authenticated
+  Audiences:
+    - Administrator
+  Mandatory: False
+RecurringTaskPart:
+  Schedule: '- - - - -'
+  ActivityType: adenin.Now.Activities.CardTask.UpdateCard
+  StartDateUtc: null
+  EndDateUtc: null
+  NextOccurrenceUtc: null
+  Priority: !!int 5
+  Status: Enabled
+  NowFlag: 0
+  LastExecutionUTC: null
+  EnableWebHook: !!bool false
+  WebHookToken: null

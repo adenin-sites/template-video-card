@@ -1,0 +1,36 @@
+$type: card
+rules: []
+properties:
+  title:
+    type: element
+    xtype: at-carbon-card-title
+    title: Video Card
+    xgridcols: 12
+    xstyle: 
+    xclass: 
+    actionListeners:
+      - _start
+  video2:
+    type: element
+    xtype: at-carbon-video
+    controls: !!bool true
+    src: https://www.youtube.com/watch?v=-UD4yHnEMeM
+    width: 
+    height: 
+    xgridcols: 12
+    xstyle: 
+    xclass: 
+    actionListeners:
+      - _start
+$meta:
+  cardId: -1
+  preview-data: |-
+    {
+      "origin": "88.65.253.122"
+    }
+  preview-mode: live
+  preview-container: event
+  search-term: 
+  service-url: 
+  xclass: 
+  xstyle: 

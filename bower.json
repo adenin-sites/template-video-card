@@ -1,0 +1,8 @@
+{
+  "name": "template-video-card",
+  "version": "0.0.1.17",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  }
+}

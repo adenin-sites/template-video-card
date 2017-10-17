@@ -1,0 +1,5 @@
+{
+ "open": {{%open=random(7..16)}},
+ "title": "{{%address.city}}",
+ "url": "http://www.nowassistant.com"
+}

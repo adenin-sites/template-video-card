@@ -1,0 +1,9 @@
+{
+    "title": "Basic Card (with API proxy)",
+    "description": "Basic card with test data definition",
+    "ctype": "Card",
+    "interfaces": "search,feed,items",
+    "icon": "now:search",
+    "category": "orange",
+    "card": true
+}
